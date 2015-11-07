@@ -22,9 +22,9 @@ public class Principal {
 			char digito = exercicio.firstChar(stream);
 			
 			if(digito=='\0'){
-				System.out.println("No existen caracteres no repetidos");
+				System.out.println("Não existem dígitosnão repetidos");
 			}else{
-				System.out.println("El primer caracter que no se repite es: " + digito);
+				System.out.println("O primeiro dígito que não se repete é: " + digito);
 			}
 		} catch (Exception e) {
 			System.out.println("Ocorreu um erro inesperado");
