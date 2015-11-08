@@ -1,4 +1,4 @@
-package com.exercicios.exercicio3.dao;
+package com.exercicios.exercicio3.classe;
 /**
  * 
  * @author Carlos Herraez

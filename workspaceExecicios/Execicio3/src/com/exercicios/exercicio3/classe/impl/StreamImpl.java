@@ -1,4 +1,4 @@
-package com.exercicios.exercicio3.dao.impl;
+package com.exercicios.exercicio3.classe.impl;
 /**
  * 
  * @author Carlos Herraez
@@ -8,7 +8,7 @@ package com.exercicios.exercicio3.dao.impl;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.exercicios.exercicio3.dao.Stream;
+import com.exercicios.exercicio3.classe.Stream;
 
 public class StreamImpl implements Stream {
 	

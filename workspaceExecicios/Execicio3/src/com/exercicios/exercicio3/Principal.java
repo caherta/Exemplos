@@ -6,7 +6,7 @@ package com.exercicios.exercicio3;
  * 	
  */
 import com.exercicios.exercicio3.business.ExercicioStream;
-import com.exercicios.exercicio3.dao.impl.StreamImpl;
+import com.exercicios.exercicio3.classe.impl.StreamImpl;
 
 public class Principal {
 /**
@@ -15,7 +15,7 @@ public class Principal {
  */
 	public static void main(String[] args) {
 		ExercicioStream exercicio = new ExercicioStream();
-		String entrada = "aAbcAa";
+		String entrada = "aAbcAabc";
 		try {
 			StreamImpl stream = new StreamImpl(entrada);
 			

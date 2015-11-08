@@ -8,7 +8,7 @@ package com.exercicios.exercicio3.business;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.exercicios.exercicio3.dao.impl.StreamImpl;
+import com.exercicios.exercicio3.classe.impl.StreamImpl;
 
 public class ExercicioStream {
 
