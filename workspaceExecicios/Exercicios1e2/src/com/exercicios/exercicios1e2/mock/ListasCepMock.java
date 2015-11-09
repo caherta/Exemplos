@@ -37,6 +37,8 @@ public class ListasCepMock {
 			this.listaCep.add(endereco);
 			endereco = new Endereco("05410001", "Rua Alves Guimaraes", "Pinheiros", "São Paulo", "SP", "", "" );
 			this.listaCep.add(endereco);
+			endereco = new Endereco("26176080", "Rua Marabu", "Parque Real", "Belford Roxo", "RJ", "", "" );
+			this.listaCep.add(endereco);
 			
 			
 		}

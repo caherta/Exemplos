@@ -225,11 +225,16 @@ public class ValidacoesCRUD {
 					endereco.setComplemento(rs.getString(8));
 				 }
 				
-				resposta.setId(endereco.getId());
-				resposta.setEndereco(endereco);
-				resposta.setErrorCode(0);
-				resposta.setMensagem("Endereço recuperado");
-				
+				if(!endereco.getCepNumber().equals("")){
+					resposta.setId(endereco.getId());
+					resposta.setEndereco(endereco);
+					resposta.setErrorCode(0);
+					resposta.setMensagem("Endereço recuperado");
+				}else{
+					
+					resposta.setErrorCode(0);
+					resposta.setMensagem("Endereço não existe");
+				}
 				
 				return resposta;
 				
