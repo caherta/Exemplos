@@ -22,7 +22,7 @@ public class Principal {
 			char digito = exercicio.firstChar(stream);
 			
 			if(digito=='\0'){
-				System.out.println("Não existem dígitosnão repetidos");
+				System.out.println("Não existem dígitos não repetidos");
 			}else{
 				System.out.println("O primeiro dígito que não se repete é: " + digito);
 			}
