@@ -21,7 +21,7 @@ public class ListasCepMock {
 			
 			Endereco endereco = new Endereco("20521110", "Rua Francisco Graça", "Tijuca", "Rio de Janeiro", "RJ", "", "" );
 			this.listaCep.add(endereco);
-			endereco = new Endereco("04853184", "Rua dos Taxistas", "Jardim Noronha", "Sao Paulo", "SP", "", "" );
+			endereco = new Endereco("04853184", "Rua dos Taxistas", "Jardim Noronha", "São Paulo", "SP", "", "" );
 			this.listaCep.add(endereco);
 			endereco = new Endereco("99054500", "Rua Onofrio Lemos", "Santa Maria", "Passo Fundo", "RS", "", "" );
 			this.listaCep.add(endereco);
@@ -34,6 +34,8 @@ public class ListasCepMock {
 			endereco = new Endereco("38411110", "Rua Presidente Costa e Silva", "Morada da Colina", "Uberlandia", "MG", "", "" );
 			this.listaCep.add(endereco);
 			endereco = new Endereco("88372558", "Rua Alvin Marcelino Bernardo", "Gravata", "Navegantes", "SC", "", "" );
+			this.listaCep.add(endereco);
+			endereco = new Endereco("05410001", "Rua Alves Guimaraes", "Pinheiros", "São Paulo", "SP", "", "" );
 			this.listaCep.add(endereco);
 			
 			

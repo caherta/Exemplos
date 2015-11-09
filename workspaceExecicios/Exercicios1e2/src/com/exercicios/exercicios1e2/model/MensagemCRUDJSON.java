@@ -1,19 +1,25 @@
 package com.exercicios.exercicios1e2.model;
-
 /**
  * VO que tem a informação da mensagem que recebemos e enviamos. 
  * @author Carlos Herráez
  *@version 08.11.2015
  */
+public class MensagemCRUDJSON {
 
-public class MensagemJSON {
-	
-	private String cepNumber;
+	private int id;
 	private Endereco endereco;
-	private int    errorCode;	
+	private int errorCode;
 	private String mensagem;
 	
 	
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public Endereco getEndereco() {
 		return endereco;
 	}
@@ -32,17 +38,6 @@ public class MensagemJSON {
 	public void setMensagem(String mensagem) {
 		this.mensagem = mensagem;
 	}
-
-
-	public String getCepNumber() {
-		return cepNumber;
-	}
-
-
-	public void setCepNumber(String cepNumber) {
-		this.cepNumber = cepNumber;
-	}
-	
 	
 	
 }

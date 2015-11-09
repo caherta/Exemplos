@@ -50,6 +50,10 @@ public class ValidacoesCEP {
 					resposta.setErrorCode(0);
 				}
 			}
+			if(cepValido == null){
+				resposta.setErrorCode(1);
+				resposta.setMensagem("CEP não existe");
+			}
 		
 		}
 		

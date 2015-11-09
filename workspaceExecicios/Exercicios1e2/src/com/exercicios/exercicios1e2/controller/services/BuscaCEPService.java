@@ -36,7 +36,6 @@ public class BuscaCEPService {
 			ValidacoesCEP valida = new ValidacoesCEP();
 			
 			resposta = valida.validarCEP(cep);
-			
 		
 		 	return resposta;
 	}

@@ -9,6 +9,8 @@ package com.exercicios.exercicios1e2.model;
 
 public class Endereco {
 	
+	
+	private int id;
 	private String cepNumber;
 	private String rua;
 	private String bairro;
@@ -19,7 +21,13 @@ public class Endereco {
 	private String numero;
 	
 	
+	public Endereco(){
+		
+		
+	}
+	
 	public Endereco(String cepNumber, String rua, String bairro, String cidade, String estado, String complemento, String numero){
+		this.id = 0;
 		this.cepNumber = cepNumber;
 		this.rua = rua;
 		this.bairro = bairro;
@@ -29,6 +37,15 @@ public class Endereco {
 		this.numero = numero;
 	}
 	
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getCepNumber() {
 		return cepNumber;
 	}
